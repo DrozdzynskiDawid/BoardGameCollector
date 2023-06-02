@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="edu.put.inf151867.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SyncFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_gamesFragment"
+            app:destination="@id/GamesFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_extrasFragment"
+            app:destination="@id/ExpansionsFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_configFragment"
+            app:destination="@id/ConfigFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SyncFragment"
+        android:name="edu.put.inf151867.SyncFragment"
+        android:label="@string/sync_fragment_label"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/GamesFragment"
+        android:name="edu.put.inf151867.GamesFragment"
+        android:label="@string/games_fragment_label"
+        tools:layout="@layout/fragment_games" >
+        <action
+            android:id="@+id/action_GamesFragment_to_gameDetailsFragment"
+            app:destination="@id/gameDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ExpansionsFragment"
+        android:name="edu.put.inf151867.ExpansionsFragment"
+        android:label="@string/expansions_fragment_label">
+        <action
+            android:id="@+id/action_ExtrasFragment_to_gameDetailsFragment"
+            app:destination="@id/gameDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ConfigFragment"
+        android:name="edu.put.inf151867.ConfigFragment"
+        android:label="@string/config_fragment_label"
+        tools:layout="@layout/fragment_config" >
+        <action
+            android:id="@+id/action_configFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameDetailsFragment"
+        android:name="edu.put.inf151867.GameDetailsFragment"
+        android:label="@string/game_details_fragment_label"
+        tools:layout="@layout/fragment_game_details" />
+</navigation>

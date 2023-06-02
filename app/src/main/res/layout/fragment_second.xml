@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".SyncFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:gravity="center"
+        android:text="@string/syncInfo"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/syncStartButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="@string/sync_start_button" />
+
+    <TextView
+        android:id="@+id/lastSyncText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="@string/syncText"
+        android:textSize="16sp" />
+
+</LinearLayout>

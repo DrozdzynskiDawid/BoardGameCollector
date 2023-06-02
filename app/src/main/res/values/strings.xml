@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BoardGameCollector</string>
+    <string name="action_settings">Opcje</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">BoardGameCollector</string>
+    <string name="sync_fragment_label">Synchronizacja z serwisem BGG</string>
+    <string name="games_fragment_label">Lista gier</string>
+    <string name="expansions_fragment_label">Lista dodatków</string>
+    <string name="config_fragment_label">Konfiguracja</string>
+    <string name="game_details_fragment_label">Szczegóły</string>
+    <!-- buttons -->
+    <string name="sync_button">Synchronizacja</string>
+    <string name="sync_start_button">Synchronizuj dane\nz serwisem BGG</string>
+    <string name="clear_button">Wyczyść dane</string>
+    <string name="game_button">Lista gier</string>
+    <string name="extra_button">Lista dodatków</string>
+    <string name="config_button">Pobierz dane</string>
+    <string name="sort_title_button">Tytuł</string>
+    <string name="sort_year_button">Rok wydania</string>
+    <string name="takePhoto">Zrób zdjęcie</string>
+    <string name="getPhoto">Zdjęcie z galerii</string>
+    <string name="deletePhoto">Usuń zdjęcia</string>
+    <!-- textView -->
+    <string name="userText">Nazwa użytkownika: </string>
+    <string name="gameText">Liczba gier: </string>
+    <string name="extrasText">Liczba dodatków: </string>
+    <string name="syncText">Ostatnia synchronizacja: </string>
+    <string name="sortText">Sortuj według: </string>
+    <string name="syncInfo">Uwaga!\nRankingi są przeliczane raz na dobę</string>
+    <string name="configText">Pobieranie danych o kolekcji gier użytkownika z portalu BoardGameGeek.com</string>
+    <string name="rankText">Miejsce w rankingu gier:</string>
+    <string name="description">Opis gry pobrany z portalu BoardGameGeek.com:</string>
+    <!-- alert messages -->
+    <string name="syncAlert">Czy na pewno chcesz wykonać ponowną synchronizację? Od ostatniej nie upłynęły jeszcze 24 godziny.</string>
+    <string name="clearAlert">Czy na pewno chcesz usunąć wszystkie dane?</string>
+    <!-- hints -->
+    <string name="username">nazwa użytkownika z portalu BoardGameGeek</string>
+    <!-- toasts -->
+    <string name="sync_toast">Wykonano synchronizację</string>
+    <!-- progressDialog -->
+    <string name="progressDialog">Trwa synchronizacja kolekcji z serwisem BoardGameGeek.com</string>
+</resources>
